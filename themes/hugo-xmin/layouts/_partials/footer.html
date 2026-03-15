@@ -1,9 +1,4 @@
-  <footer>
-  {{ partial "foot_custom.html" . }}
-  {{ with .Site.Params.footer }}
-  <hr/>
-  {{ replace . "{Year}" now.Year | markdownify }}
-  {{ end }}
+<footer>
+    <hr>
+    <p>Copyright © {{ now.Format "2006" }} Qubee | <a href="/index.xml">RSS</a></p>
   </footer>
-  </body>
-</html>
