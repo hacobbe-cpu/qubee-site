@@ -1,0 +1,22 @@
+baseURL = 'https://hacobbe-cpu.github.io/qubee-site/'
+languageCode = 'pl-pl'
+title = 'Qubee Site'
+theme = "mytheme"
+
+[params]
+  # To ustawia czarny motyw jako domyślny
+  defaultTheme = 'dark'
+  # Napis w logotypie (lewy górny róg)
+  logoText = 'qubee@terminal:~$'
+  # Czy pokazywać kursor w logo?
+  logoCursor = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Wpisy"
+    url = "/posts/"
+  [[menu.main]]
+    identifier = "about"
+    name = "O mnie"
+    url = "/about/"
