@@ -5,13 +5,16 @@ theme = 'mytheme'
 
 [params]
     description = "Moja przestrzeń w sieci"
-    # To stworzy te pionowe linie i linki po lewej
+    # To linia, która nakazuje wyświetlanie postów na stronie głównej:
+    mainSections = ["posts"]
+
+    # Menu boczne
     [[params.menu]]
         name = "Blog"
-        url = "/posts"
+        url = "posts/"
     [[params.menu]]
         name = "O mnie"
-        url = "/about"
+        url = "about/"
     [[params.menu]]
         name = "GitHub"
         url = "https://github.com/hacobbe-cpu"
