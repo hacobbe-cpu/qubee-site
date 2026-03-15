@@ -4,10 +4,16 @@ title = 'Qubee'
 theme = 'mytheme'
 
 [params]
+    description = "Moja przestrzeń w sieci"
     mainSections = ["posts"]
+
+    # To przywróci menu boczne:
     [[params.menu]]
         name = "Blog"
         url = "posts/"
     [[params.menu]]
         name = "GitHub"
         url = "https://github.com/hacobbe-cpu"
+    [[params.menu]]
+        name = "O mnie"
+        url = "about/"
