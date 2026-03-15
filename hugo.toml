@@ -1,13 +1,16 @@
 baseURL = 'https://hacobbe-cpu.github.io/qubee-site/'
 languageCode = 'pl-pl'
-title = 'Qubee'
-theme = 'hugo-dead-simple'
+title = 'Qubee site'
+theme = 'hugo-dead-simple' # upewnij się, że folder tak się nazywa!
 
 [params]
+    description = "Moja przestrzeń w sieci"
     mainSections = ["posts"]
-    [[params.menu]]
-        name = "blog"
-        url = "posts/"
-    [[params.menu]]
-        name = "github"
-        url = "https://github.com/hacobbe-cpu"
+
+# Menu w tym motywie MUSI być pod params.menu
+[[params.menu]]
+    name = "blog"
+    url = "posts/"
+[[params.menu]]
+    name = "github"
+    url = "https://github.com/hacobbe-cpu"
