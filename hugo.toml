@@ -5,16 +5,13 @@ theme = 'mytheme'
 
 [params]
     description = "Moja przestrzeń w sieci"
-    # To linia, która nakazuje wyświetlanie postów na stronie głównej:
     mainSections = ["posts"]
 
-    # Menu boczne
-    [[params.menu]]
-        name = "Blog"
-        url = "posts/"
-    [[params.menu]]
-        name = "O mnie"
-        url = "about/"
-    [[params.menu]]
-        name = "GitHub"
-        url = "https://github.com/hacobbe-cpu"
+[[menu.main]]
+    name = "Blog"
+    url = "posts/"
+    weight = 1
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/hacobbe-cpu"
+    weight = 2
