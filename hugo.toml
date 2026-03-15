@@ -4,11 +4,7 @@ title = 'Qubee'
 theme = 'mytheme'
 
 [params]
-    description = "Moja przestrzeń w sieci"
-    # To jest kluczowe dla tego motywu:
     mainSections = ["posts"]
-
-    # Menu boczne (Specyficzne dla Dead Simple)
     [[params.menu]]
         name = "Blog"
         url = "posts/"
