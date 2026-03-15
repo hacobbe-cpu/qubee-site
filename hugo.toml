@@ -1,22 +1,27 @@
 baseURL = 'https://hacobbe-cpu.github.io/qubee-site/'
 languageCode = 'pl-pl'
-title = 'Qubee Site'
+title = 'Qubee'
 theme = 'mytheme'
 
 [params]
-  # To ustawia czarny motyw jako domyślny
-  defaultTheme = 'dark'
-  # Napis w logotypie (lewy górny róg)
-  logoText = 'qubee@terminal:~$'
-  # Czy pokazywać kursor w logo?
-  logoCursor = true
+  # To sprawi, że strona będzie ciemna (jak u rkoziel)
+  defaultTheme = "dark"
+  # To doda ten charakterystyczny kursor/tekst na środku
+  homeSubtitle = "Pasjonat technologii | Moja przestrzeń w sieci"
+  # Kolor akcentu (np. zielony jak w terminalu albo różowy)
+  colorAccent = "green" 
+  
+  # Ikony społecznościowe (pojawią się na dole lub w menu)
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/hacobbe-cpu"
 
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "Wpisy"
-    url = "/posts/"
+    name = "Blog"
+    url = "/posts"
   [[menu.main]]
     identifier = "about"
     name = "O mnie"
-    url = "/about/"
+    url = "/about"
