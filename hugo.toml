@@ -1,6 +1,6 @@
 baseURL = 'https://hacobbe-cpu.github.io/qubee-site/'
 languageCode = 'pl-pl'
-title = 'Qubee Site'
+title = 'Qubee's Site'
 theme = "mytheme"
 
 [params]
