@@ -4,24 +4,19 @@ title = 'Qubee'
 theme = 'mytheme'
 
 [params]
-  # To sprawi, że strona będzie ciemna (jak u rkoziel)
-  defaultTheme = "dark"
-  # To doda ten charakterystyczny kursor/tekst na środku
-  homeSubtitle = "Pasjonat technologii | Moja przestrzeń w sieci"
-  # Kolor akcentu (np. zielony jak w terminalu albo różowy)
-  colorAccent = "green" 
-  
-  # Ikony społecznościowe (pojawią się na dole lub w menu)
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/hacobbe-cpu"
+    description = "Moja przestrzeń w sieci"
+    # To menu pojawi się po lewej stronie (te pionowe linie)
+    [[params.menu]]
+        name = "Blog"
+        url = "/posts"
+    [[params.menu]]
+        name = "O mnie"
+        url = "/about"
+    [[params.menu]]
+        name = "GitHub"
+        url = "https://github.com/hacobbe-cpu"
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Blog"
-    url = "/posts"
-  [[menu.main]]
-    identifier = "about"
-    name = "O mnie"
-    url = "/about"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Pozwala na lepsze renderowanie niektórych elementów
