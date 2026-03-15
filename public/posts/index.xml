@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Qubee site</title>
+    <link>http://localhost:1313/qubee-site/posts/</link>
+    <description>Recent content in Posts on Qubee site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Sun, 15 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/qubee-site/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nowy start</title>
+      <link>http://localhost:1313/qubee-site/posts/first/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/qubee-site/posts/first/</guid>
+      <description>Strona postawiona od zera. Teraz powinno być idealnie!</description>
+    </item>
+  </channel>
+</rss>
