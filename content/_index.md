@@ -1,6 +1,6 @@
 # Hello, guest!
 
-## So, basically this site will serve as a changelog of my journey towards achieving my goal of wanna-be-programmer .
+So, basically this site will serve as a changelog of my journey towards achieving my goal of wanna-be-programmer .
 
 ---
 
