@@ -1,4 +1,4 @@
-name = "dead-simple"
+    name = "dead-simple"
 license = "MIT"
 licenselink = "https://github.com/barklan/hugo-dead-simple/blob/main/LICENSE"
 description = "Dead simple Hugo theme."
