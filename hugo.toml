@@ -15,3 +15,8 @@ theme = 'hugo-xmin'
     name = "Posty"
     url = "/posts/"
     weight = 3
+[[menu.main]]
+    name = "Test"
+    url = "/test/"
+    weight = 4
+  
