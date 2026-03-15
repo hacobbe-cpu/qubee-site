@@ -1,7 +1,7 @@
 baseURL = 'https://hacobbe-cpu.github.io/qubee-site/'
 languageCode = 'pl-pl'
-title = 'Qubee's Site'
-theme = "mytheme"
+title = 'Qubee Site'
+theme = 'mytheme'
 
 [params]
   # To ustawia czarny motyw jako domyślny
