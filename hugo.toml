@@ -7,6 +7,7 @@ theme = "shibui-master"
   [params.author]
     name = "@kjaszczuk:~$"
   email = "hacobbe@gmail.com"
+  customCSS = ["css/custom.css"]
 
 [[menu.main]]
     name = "O mnie"
@@ -23,5 +24,3 @@ theme = "shibui-master"
     guessSyntax = true
     lineNos = false
     style = "monokai" # To zmieni schemat kolorów na sprawdzony i czytelny
-[params]
-  customCSS = ["css/custom.css"]
