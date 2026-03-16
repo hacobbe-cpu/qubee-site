@@ -1,7 +1,10 @@
 # Hello, guest!
 
 So, basically this site will serve as a changelog of my journey towards achieving my goal of wanna-be-programmer.
-It all started when my art industry entered a major crisis related to a market crisis and an oversupply of tattoo artists.
+It all started when my art industry entered a major crisis related to a market and an oversupply of tattoo artists.
+
+---
+
 This journey starts from totally scratch, and every single blog entry is a trace that follows my actions and progress.
 
 ---
