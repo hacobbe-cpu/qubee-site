@@ -15,3 +15,5 @@ This journey starts from totally scratch, and every single blog entry is a trace
 - [Tattoos](https://www.instagram.com/kubajaszczuk/)
 
 ---
+
+&nbsp;
