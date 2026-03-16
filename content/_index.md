@@ -1,6 +1,14 @@
 # Hello, guest!
 
-So, basically this site will serve as a changelog of my journey towards achieving my goal of wanna-be-programmer .
+> So, basically this site will serve as a changelog of my journey towards achieving my goal of wanna-be-programmer.
+> It all started when my art industry entered a major crisis related to a market crisis and an oversupply of tattoo artists.
+> This journey starts from totally scratch, and every single blog entry is a trace that follows my actions and progress.
+
+---
+
+```sh
+An idiot admires complexity, a genius admires simplicity.
+```
 
 ---
 
@@ -10,5 +18,3 @@ So, basically this site will serve as a changelog of my journey towards achievin
 - [Tattoos](https://www.instagram.com/kubajaszczuk/)
 
 ---
-
-### Blog entries below:

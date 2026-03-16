@@ -8,12 +8,12 @@ theme = "shibui-master"
     name = "@kjaszczuk:~$"
   email = "hacobbe@gmail.com"
 
+[[menu.main]]
+    name = "O mnie"
+    url = "/about/"
+    weight = 1
 [menu]
   [[menu.main]]
     name = "Posty"
     url = "/posts/"
-    weight = 1
-  [[menu.main]]
-    name = "O mnie"
-    url = "/about/"
     weight = 2
