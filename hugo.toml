@@ -1,4 +1,4 @@
-baseURL = 'https://hacobbe-cpu.github.io/qubee-site/'
+baseURL = 'https://kubajaszczuk.com/'
 languageCode = 'pl-pl'
 title = '@kjaszczuk:~$'
 theme = "shibui-master"
