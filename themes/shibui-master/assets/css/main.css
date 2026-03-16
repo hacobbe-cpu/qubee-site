@@ -232,7 +232,7 @@ pre {
   /* ZMIANA: Wymuszamy jasny kolor tekstu dla bloków kodu */
   color: #f8f8f2 !important;
   /* ZMIANA: Wymuszamy konkretne ciemne tło (np. w stylu Draculi) */
-  background: #505054 !important;
+  background: #b9b9bb !important;
   overflow-x: auto;
   box-shadow: 0 1px 2px 0 var(--color-border);
 }
