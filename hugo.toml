@@ -17,3 +17,9 @@ theme = "shibui-master"
     name = "Posty"
     url = "/posts/"
     weight = 2
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai" # To zmieni schemat kolorów na sprawdzony i czytelny
