@@ -11,24 +11,20 @@ theme = "shibui-master"
     name = "kuba@kjaszczuk:~$"
   email = "hacobbe@gmail.com"
 
-[[menu.main]]
+[menu]
+
+  [[menu.main]]
     name = "./About-me"
     url = "/about/"
     weight = 1
-[menu]
+
   [[menu.main]]
     name = "./Posts"
     url = "/posts/"
     weight = 2
-[menu.main]
+
+  [[menu.main]]
     name = "./RSS"
-    url = "index.xml" # spróbuj bez ukośnika na początku, jeśli /index.xml nie działa
-    weight = 30
-    
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNos = false
-    style = "monokai"
-    noClasses = true  # Dopisz to tutaj, zamiast tworzyć nową sekcję
+    url = "/index.xml"
+    weight = 3
+
