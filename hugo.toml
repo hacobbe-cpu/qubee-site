@@ -1,6 +1,6 @@
 baseURL = 'https://hacobbe-cpu.github.io/qubee-site/'
 languageCode = 'pl-pl'
-title = 'root@kjaszczuk:~$'
+title = '@kjaszczuk:~$'
 theme = 'hugo-xmin'
 
 [[menu.main]]
@@ -15,10 +15,6 @@ theme = 'hugo-xmin'
     name = "Blog"
     url = "/posts/"
     weight = 3
-[[menu.main]]
-    name = "Test"
-    url = "/test/"
-    weight = 4
 [[menu.main]]
     name = "RSS"
     url = "/index.xml"
