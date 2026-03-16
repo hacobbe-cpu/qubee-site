@@ -229,7 +229,10 @@ pre {
   font-family: var(--font-family-mono);
   font-size: var(--font-size-code);
   line-height: 1.6;
-  color: var(--color-text-code);
+  /* ZMIANA: Wymuszamy jasny kolor tekstu dla bloków kodu */
+  color: #f8f8f2 !important;
+  /* ZMIANA: Wymuszamy konkretne ciemne tło (np. w stylu Draculi) */
+  background: #282a36 !important;
   overflow-x: auto;
   box-shadow: 0 1px 2px 0 var(--color-border);
 }
