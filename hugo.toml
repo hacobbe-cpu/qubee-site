@@ -2,29 +2,30 @@ baseURL = 'https://kjaszczuk.com/'
 languageCode = 'pl-pl'
 title = 'kuba@kjaszczuk:~$'
 theme = "shibui-master"
-[outputs]
-  home = ["HTML", "RSS"]
-  section = ["HTML", "RSS"]
 
 [params]
   [params.author]
     name = "kuba@kjaszczuk:~$"
   email = "hacobbe@gmail.com"
 
-[menu]
-
-  [[menu.main]]
+[[menu.main]]
     name = "./About-me"
     url = "/about/"
     weight = 1
-
+[menu]
   [[menu.main]]
     name = "./Posts"
     url = "/posts/"
     weight = 2
-
   [[menu.main]]
     name = "./RSS"
     url = "/index.xml"
-    weight = 3
+    weight = 2
 
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai"
+    noClasses = true  # Dopisz to tutaj, zamiast tworzyć nową sekcję
