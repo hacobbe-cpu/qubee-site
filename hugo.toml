@@ -1,4 +1,4 @@
-baseURL = 'https://kubajaszczuk.com/'
+baseURL = 'https://kjaszczuk.com/'
 languageCode = 'pl-pl'
 title = '@kjaszczuk:~$'
 theme = "shibui-master"
