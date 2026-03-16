@@ -1,7 +1,7 @@
 baseURL = 'https://hacobbe-cpu.github.io/qubee-site/'
 languageCode = 'pl-pl'
 title = '@kjaszczuk:~$'
-theme = "shibui"
+theme = "shibui-master"
 
 [params]
   author = "Your Name"
