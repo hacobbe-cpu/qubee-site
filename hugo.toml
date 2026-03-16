@@ -22,7 +22,5 @@ theme = "shibui-master"
     codeFences = true
     guessSyntax = true
     lineNos = false
-    style = "monokai" # To zmieni schemat kolorów na sprawdzony i czytelny
-
-[markup.highlight]
-  noClasses = true
+    style = "monokai"
+    noClasses = true  # Dopisz to tutaj, zamiast tworzyć nową sekcję
