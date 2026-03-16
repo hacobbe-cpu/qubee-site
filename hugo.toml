@@ -4,7 +4,8 @@ title = '@kjaszczuk:~$'
 theme = "shibui-master"
 
 [params]
-  author = "Your Name"
+  [params.author]
+    name = "@kjaszczuk:~$"
   email = "hacobbe@gmail.com"
 
 [menu]
