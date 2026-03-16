@@ -17,11 +17,7 @@ theme = "shibui-master"
     name = "./Posts"
     url = "/posts/"
     weight = 2
-  [[menu.main]]
-    name = "./RSS"
-    url = "/index.xml"
-    weight = 2
-
+    
 [markup]
   [markup.highlight]
     codeFences = true
