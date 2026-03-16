@@ -9,12 +9,12 @@ theme = "shibui-master"
   email = "hacobbe@gmail.com"
 
 [[menu.main]]
-    name = "O mnie"
+    name = "About me"
     url = "/about/"
     weight = 1
 [menu]
   [[menu.main]]
-    name = "Posty"
+    name = "Posts"
     url = "/posts/"
     weight = 2
 [markup]
