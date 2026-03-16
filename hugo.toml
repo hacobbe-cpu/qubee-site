@@ -1,7 +1,7 @@
 baseURL = 'https://hacobbe-cpu.github.io/qubee-site/'
 languageCode = 'pl-pl'
-title = 'root@kjaszczuk:~'
-theme = 'risotto-main'
+title = 'root@kjaszczuk:~$'
+theme = 'hugo-xmin'
 
 [[menu.main]]
     name = "Home"
