@@ -11,20 +11,18 @@ theme = "shibui-master"
     name = "kuba@kjaszczuk:~$"
   email = "hacobbe@gmail.com"
 
-[menu]
-  [[menu.main]]
+[[menu.main]]
     name = "./About-me"
     url = "/about/"
     weight = 1
-
+[menu]
   [[menu.main]]
     name = "./Posts"
     url = "/posts/"
     weight = 2
-
-  [[menu.main]]
+[menu.main]
     name = "./RSS"
-    url = "/index.xml"
+    url = "index.xml" # spróbuj bez ukośnika na początku, jeśli /index.xml nie działa
     weight = 30
     
 [markup]
