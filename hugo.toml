@@ -1,11 +1,11 @@
 baseURL = 'https://kjaszczuk.com/'
 languageCode = 'pl-pl'
-title = '@kjaszczuk:~$'
+title = 'kuba@kjaszczuk:~$'
 theme = "shibui-master"
 
 [params]
   [params.author]
-    name = "@kjaszczuk:~$"
+    name = "kuba@kjaszczuk:~$"
   email = "hacobbe@gmail.com"
 
 [[menu.main]]
