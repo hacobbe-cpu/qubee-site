@@ -1,1 +1,19 @@
-/* You can add custom style here */
+/* Naprawa widoczności kodu w blokach */
+code {
+  color: #f8f8f2 !important; /* Jasny, prawie biały kolor tekstu */
+}
+
+.highlight pre,
+pre {
+  background-color: #272822 !important; /* Wyraźne ciemne tło (Monokai) */
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+/* Kolory dla konkretnych elementów komend, jeśli motyw je nadpisuje */
+.highlight .nv,
+.highlight .nb,
+.highlight .k {
+  color: #a6e22e !important; /* Zielonkawy dla komend typu git */
+}
