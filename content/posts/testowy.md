@@ -1,8 +1,7 @@
 ---
-title: "Your Post Title"
+title: "Second Entry for the win"
 date: 2026-03-16
 tags: ["hugo", "theme"]
 ---
 
-tesuje cos tylko
-asd
+will add something here soon.
