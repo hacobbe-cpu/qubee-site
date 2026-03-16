@@ -23,3 +23,5 @@ theme = "shibui-master"
     guessSyntax = true
     lineNos = false
     style = "monokai" # To zmieni schemat kolorów na sprawdzony i czytelny
+[params]
+  customCSS = ["css/custom.css"]
